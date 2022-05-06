@@ -10,7 +10,8 @@ class App extends React.Component {
   showInfor = async (code) => {
     const result = await axios.post('http://sinhvien.hueic.edu.vn/tra-cuu-van-bang.html', {
       MaSinhVien: code
-    })
+    },
+    he)
     console.log(result);
   }
 
